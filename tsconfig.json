@@ -15,6 +15,7 @@
     },
     "allowSyntheticDefaultImports": true,
     "importsNotUsedAsValues": "error",
+    "verbatimModuleSyntax":true,
     /* more strict checking for errors that per-file transpilers like `esbuild` would crash */
     "isolatedModules": true,
     /* noEmit - We only use TypeScript for type checking. */
@@ -24,6 +25,6 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
-    "useDefineForClassFields": true
+    "useDefineForClassFields": true,
   }
 }
