@@ -17,9 +17,20 @@
     "ts-loader": "^9.4.2",
     "typescript": "^4.9.5",
     "webpack": "^5.82.1",
-    "webpack-cli": "^5.1.1"  
-  }
-  
-  
+    "webpack-cli": "^5.1.1"
+  },
+  "name": "todolist",
+  "description": "> ✨ Bootstrapped with Create Snowpack App (CSA).",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahmouddoma/TO-DO-LIST.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahmouddoma/TO-DO-LIST/issues"
+  },
+  "homepage": "https://github.com/mahmouddoma/TO-DO-LIST#readme"
 }
-
