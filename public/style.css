@@ -72,7 +72,7 @@
   
   .btn{
       width: 220px;
-      height: 50px;
+      height: 40px;
       position: absolute;
       left: 40px;
       bottom: 20px;
@@ -84,7 +84,22 @@
       font-size: 20px;
       transition: all 0.8s ease-in;
   }
-  
+/* 
+  .btn01{
+    width: 220px;
+    height: 30px;
+    position: absolute;
+    left: 40px;
+    bottom: 10px;
+    background: #ae00ff;
+    outline: none;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.8s ease-in;
+}
+   */
   .btn:hover{
       background: transparent;
       border: 3px solid #ae00ff;
@@ -92,6 +107,14 @@
       font-size: 20px;
       border-radius: 4px;
   }
+
+  /* .btn01:hover{
+    background: transparent;
+    border: 3px solid #ae00ff;
+    color: #ae00ff;
+    font-size: 20px;
+    border-radius: 4px;
+} */
   
   .line li h4{
       width: 320px;

@@ -14,7 +14,6 @@ const input = document.querySelector<HTMLInputElement>("#new-task-title")
 const tasks: Task[] = loadTasks()
 tasks.forEach(addListItem)
 
-
 form?.addEventListener("submit", e => {
     e.preventDefault()
     if (input?.value == "" || input?.value == null) return
